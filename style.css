@@ -106,3 +106,13 @@ h1{
 
 /* End Mission Part */
 
+
+/* Start Develop Part */
+
+#develop-area{
+    background: url(images/bg/shape-1.png) no-repeat;
+    background-position: left;
+    margin: 30px 0;
+}
+
+/* End Develop Part */
