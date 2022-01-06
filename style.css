@@ -129,3 +129,41 @@ h1{
 }
 
 /* End Comunity Part */
+
+
+/* Start Testimonial Part */
+
+#testimonial-area{
+    text-align: center;
+    padding: 30px 8%;
+    background: url(images/testimonmial-bg.png) no-repeat;
+    background-size: 100% 100%;
+}
+#testimonial-area h1{
+    border: none;
+    padding-bottom: 40px;
+}
+#testimonial-area h2{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#testimonial-area h3{
+    font-size: 1rem;
+    color: #9B9B9B;
+    padding-bottom: 20px;
+}
+
+#testimonial-area .message{
+    width: 60%;
+    margin: 40px auto;
+    color: #fff;
+    background-color: #ED4B71;
+    border-radius: 5px;
+    padding: 40px 5%;
+}
+#testimonial-area .message p{
+    padding: 20px 0 10px;
+}
+
+
+/* End Testimonial Part */
