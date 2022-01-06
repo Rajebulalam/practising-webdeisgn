@@ -30,7 +30,6 @@ img{
 }
 .child-half{
     align-self: center;
-    
 }
 .link-btn{
     color: #fff;
@@ -51,13 +50,6 @@ img{
 }
 #header-area .child-half:last-child, #community-area .child-half:last-child{
     flex-basis: 35%;
-}
-#application-area .flexible-area .child-half:first-child, #develop-area .child-half:first-child{
-    flex-basis: 35%;
-}
-#application-area .flexible-area .child-half:last-child, #develop-area .child-half:last-child{
-    flex-basis: 63%;
-    padding-left: 2%;
 }
 
 /* End Combined with Group Selector */
@@ -114,6 +106,13 @@ h1{
     background-position: left;
     margin: 30px 0;
 }
+#develop-area .child-half:first-child{
+    flex-basis: 35%;
+}
+#develop-area .child-half:last-child{
+    flex-basis: 63%;
+    padding-left: 2%;
+}
 
 /* End Develop Part */
 
@@ -152,12 +151,11 @@ h1{
     color: #9B9B9B;
     padding-bottom: 20px;
 }
-
 #testimonial-area .message{
     width: 60%;
     margin: 40px auto;
     color: #fff;
-    background-color: #ED4B71;
+    background-image: linear-gradient(90deg, #162447, #00204a);
     border-radius: 5px;
     padding: 40px 5%;
 }
@@ -165,14 +163,13 @@ h1{
     padding: 20px 0 10px;
 }
 
-
 /* End Testimonial Part */
 
 
 /* Start Footer Part */
 
 .footer-area{
-    background-color: #0B0D17;
+    background-color: #000333;
     text-align: center;
     color: #fff;
     padding: 30px 0 20px;
