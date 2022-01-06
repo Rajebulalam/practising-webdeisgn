@@ -21,7 +21,7 @@ img{
     max-width: 100%;
 }
 .highlight-color{
-    color: #FFA430;
+    color: #FC790B;
 }
 .flexible-area{
     display: flex;
@@ -73,3 +73,36 @@ h1{
 }
 
 /* End Header Part */
+
+
+/* Start Mission Part */
+
+.mission-area h2{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 50px;
+}
+.mission-area .flexible-area .child-half{
+    flex-basis: 32%;
+    border-radius: 15px;
+    padding: 10px 2%;
+}
+.mission-area .flexible-area .child-half p{
+    padding-top: 10px;
+}
+.mission-area .flexible-area .child-half img{
+    width: 50%;
+    height: 170px;
+}
+.mission-area .flexible-area .child-half:first-child{
+    background-color: #EDF5F6;
+}
+.mission-area .flexible-area .child-half:nth-child(2){
+    background-color: #FFEEEE;
+}
+.mission-area .flexible-area .child-half:last-child{
+    background-color: #FFF4D6;
+}
+
+/* End Mission Part */
+
