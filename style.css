@@ -116,3 +116,16 @@ h1{
 }
 
 /* End Develop Part */
+
+
+/* Strat Comunity Part */
+
+#community-area{
+    background: url(images/bg/shape-1.png) no-repeat;
+    background-position: 98% 98%;
+}
+#community-area .child-half:last-child{
+    padding: 40px 0;
+}
+
+/* End Comunity Part */
