@@ -1,0 +1,75 @@
+/* Start Typography */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    padding: 30px 0;
+}
+h2{
+    font-size: 35px;
+}
+h3{
+    font-size: 25px;
+}
+img{
+    max-width: 100%;
+}
+.highlight-color{
+    color: #FFA430;
+}
+.flexible-area{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 8%;
+}
+.child-half{
+    align-self: center;
+    
+}
+.link-btn{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(90deg, #162447, #00204a);
+    border-radius: 5px;
+}
+
+/* End Typography */
+
+
+/* Start Combined with Group Selector */
+
+#header-area .child-half:first-child, #community-area .child-half:first-child{
+    flex-basis: 60%;
+    padding-right: 5%;
+}
+#header-area .child-half:last-child, #community-area .child-half:last-child{
+    flex-basis: 35%;
+}
+#application-area .flexible-area .child-half:first-child, #develop-area .child-half:first-child{
+    flex-basis: 35%;
+}
+#application-area .flexible-area .child-half:last-child, #develop-area .child-half:last-child{
+    flex-basis: 63%;
+    padding-left: 2%;
+}
+
+/* End Combined with Group Selector */
+
+
+/* Start Header Part */
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    border-left: 5px solid #FFA500;
+    padding: 0 10px;
+}
+
+/* End Header Part */
