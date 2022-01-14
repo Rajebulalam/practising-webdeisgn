@@ -1,0 +1,62 @@
+/* Start Tablet Layout Responsive Part */
+
+@media only screen and (min-width: 200px) and (max-width: 991px) {
+
+    .flexible-area {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .mission-area .flexible-area .child-half {
+        display: flex;
+        align-items: center;
+    }
+    .mission-area .flexible-area .child-half img {
+        width: 100%;
+        height: auto;
+    }
+    .mission-img{
+        flex-basis: 30%;
+    }
+    .mission-img img{
+        width: 100%;
+    }
+    .mission-details{
+        flex-basis: 70%;
+    }
+
+}
+
+/* End Tablet Layout Responsive Part */
+
+
+
+/* Start i-pad and Mobile Layout Part */
+
+@media only screen and (min-width: 200px) and (max-width: 580px) {
+
+    .flexible-area {
+        padding: 20px 5%;
+    }
+    h1, h2{
+        font-size: 1.5rem;
+    }
+    #testimonial-area h2 {
+        font-size: 1rem;
+    }
+    #develop-area, #community-area{
+        background: none;
+    }
+    .mission-area h2, #testimonial-area h1 {
+        padding: 20px 2%;
+        font-size: 1.7rem;
+    }
+    .mission-area .flexible-area .child-half {
+        flex-direction: column;
+    }
+    #develop-area .link-btn, #community-area .link-btn{
+        padding: 10px 25px;
+    }
+
+}
+
+/* End i-pad and Mobile Layout Part */
